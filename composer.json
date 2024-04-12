@@ -18,6 +18,12 @@
             "email": "james@firefly-iii.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/XHR-CONSULTING/slack-client"
+        }
+    ],
     "require": {
         "php": ">8.0",
         "botman/botman": "~2.1",
@@ -29,9 +35,6 @@
         "illuminate/support": "~9.0",
         "mockery/mockery": "~1",
         "ext-curl": "*"
-    },
-    "suggest": {
-        "XHR-CONSULTING/slack-client": "Use the Slack RTM API with BotMan"
     },
     "autoload": {
         "psr-4": {
