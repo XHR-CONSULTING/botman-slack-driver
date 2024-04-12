@@ -27,7 +27,7 @@
     "require": {
         "php": ">8.0",
         "botman/botman": "~2.1",
-        "XHR-CONSULTING/slack-client": "^1.0"
+        "xhr-consulting/slack-client": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
