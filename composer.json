@@ -1,5 +1,5 @@
 {
-    "name": "XHR-CONSULTING/botman-slack-driver",
+    "name": "xhr-consulting/botman-slack-driver",
     "license": "MIT",
     "description": "Slack driver for BotMan",
     "minimum-stability": "dev",
