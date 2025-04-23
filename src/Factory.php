@@ -25,8 +25,8 @@ class Factory
     public function createForRTM(
         array $config,
         LoopInterface $loop,
-        CacheInterface $cache = null,
-        StorageInterface $storageDriver = null
+        ?CacheInterface $cache = null,
+        ?StorageInterface $storageDriver = null
     ) {
         $client = new RealTimeClient($loop);
 
@@ -47,8 +47,8 @@ class Factory
     public function createUsingRTM(
         array $config,
         RealTimeClient $client,
-        CacheInterface $cache = null,
-        StorageInterface $storageDriver = null
+        ?CacheInterface $cache = null,
+        ?StorageInterface $storageDriver = null
     ) {
         if (empty($cache)) {
             $cache = new ArrayCache();
